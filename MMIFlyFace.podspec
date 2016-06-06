@@ -27,7 +27,7 @@ s.frameworks = [
 'QuartzCore',
 'CoreGraphics'
 ]
-s.libraries = 'libz','libc++'
+s.libraries = 'z','c++'
 s.vendored_frameworks = 'lib/*.framework'
 
 end
