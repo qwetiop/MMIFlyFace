@@ -9,7 +9,7 @@ s.description = <<-DESC
 2、提供在线人脸注册、验证、检测、聚焦功能；
 3、提供基本在线识别、合成、语义、评测、声纹等功能;
 DESC
-s.homepage = 'http://www.xfyun.cn/services/face?type=face'
+s.homepage = 'https://github.com/money150604/MMIFlyFace'
 s.authors  = { '行业软件解决方案' => 'lindai@iflytek.com' }
 s.source   = { :git => 'https://github.com/money150604/MMIFlyFace.git', :tag => "#{s.version}" }
 s.ios.deployment_target = '7.0'
@@ -27,10 +27,7 @@ s.frameworks = [
 'QuartzCore',
 'CoreGraphics'
 ]
-s.libraries = [
-'libz',
-'libc++'
-]
+s.libraries = 'libz','libc++'
 s.vendored_frameworks = 'lib/*.framework'
 
 end
